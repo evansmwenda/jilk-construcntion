@@ -496,17 +496,17 @@ hr {
 
 /* line 246, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn {
-  border: none;
+  border: 1px solid #072366;
   padding: 10px 65px 10px 31px;
   text-transform: capitalize;
   border-radius: 0px;
   cursor: pointer;
-  color: #fff;
+  color: #072366;/*/#fff;*/
   display: inline-block;
   font-size: 16px;
   background-size: 200%;
   transition: 0.6s;
-  background-image: linear-gradient(to left, #FF3514, #d62d12, #FF3514);
+  /*background-image: linear-gradient(to left, #FF3514, #d62d12, #FF3514);*/
   background-position: right;
 }
 
@@ -526,11 +526,13 @@ hr {
 /* line 269, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn:hover i {
   left: 30px;
+
 }
 
 /* line 275, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
 .btn:hover {
   background-position: left;
+  background-color: #072366;
 }
 
 /* line 279, C:/Users/HP/Desktop/jun-2020/280.Industrial_HTML/assets/scss/_common.scss */
@@ -8671,7 +8673,7 @@ del {
 .gallery-title
 {
     font-size: 36px;
-    color: #42B32F;
+    color: #072366;/*#42B32F;*/
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -8682,26 +8684,26 @@ del {
     width: 7.5%;
     left: 46.5%;
     height: 45px;
-    border-bottom: 1px solid #5e5e5e;
+    /*border-bottom: 1px solid #5e5e5e;*/
 }
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #072366;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: #072366;
     margin-bottom: 30px;
 
 }
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid #072366;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #072366;
 
 }
 .btn-default:active .filter-button:active
@@ -8722,5 +8724,6 @@ del {
 
 
 /*end of gallery section css*/
+
 
 /*# sourceMappingURL=style.css.map */
